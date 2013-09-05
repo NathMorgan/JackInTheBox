@@ -1,0 +1,155 @@
+html{
+    background-color: #f0f589;
+    font-family: arial;
+}
+
+body{
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+}
+
+header img{
+    display: block;
+    margin: auto;
+}
+
+/* Navigation bar */
+#headerNav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#headerNav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+#headerNav ul li{
+    display: inline-block;
+}
+
+#headerNav ul li a:link, #headerNav ul li a:visited{
+    display: block;
+    width: 85px;
+    font-family: calibri;
+    font-size: 16px;
+    color: #ff0000;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+
+#headerNav ul li a:hover{
+    color: #9c9898;
+}
+
+/* End Navigation bar */
+
+#mainSection{
+    margin-bottom: 25px;
+}
+
+footer{
+    background-color: #f0f589;
+    text-align: center;
+}
+
+/* Register */
+#Registerwrapper{
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+#Reigsterform{
+    width: 325px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#Reigsterform label{
+    float: left;
+}
+
+#Reigsterform input{
+    float: right;
+}
+
+#Reigsterform input[type="submit"]{
+    float: none;
+    margin: auto;
+}
+
+#Reigsterform input[type="checkbox"]{
+    float: none;
+}
+
+/* End Register */
+
+/* Start Login */
+
+#Loginwrapper{
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+#Loginform{
+    width: 250px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#Loginform label{
+    float: left;
+}
+
+#Loginform input{
+    float: right;
+}
+
+#Loginform input[type="checkbox"]{
+    float: none;
+}
+
+#Loginform input[type="submit"]{
+    float: none;
+    margin: auto;
+}
+
+/* End login */
+
+.profile{
+    width: 300px;
+    height: 450px;
+    margin-left: 4px;
+    margin-right: 4px;
+    float: left;
+    padding: 9px;
+    border: solid 1px #f0f589;
+    text-align: center;
+}
+
+.profile h2{
+    color: red;
+}
+
+.profile img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.profile span{
+    font-weight: bold;
+}
+
+.clearfloats{
+    clear: both;
+}
+
+h1{
+    text-align: center;
+}
